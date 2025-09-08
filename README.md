@@ -23,12 +23,15 @@ It supports validation, expansion into extended form, and computation of total p
 Chemical-Formula-Parser/
 ┣ src/
 ┃ ┣ parseFormula.c
+┃ ┣ parseFormula.h
 ┃ ┣ stack.c
 ┃ ┣ stack.h
-┃ ┣ utils.c / utils.h
+┃ ┣ periodicTable.c
+┃ ┣ periodicTable.h
 ┣ data/
 ┃ ┣ periodicTable.txt
 ┃ ┣ testFile.txt
+┃ ┣ chemFormulas.txt
 ┣ makefile
 ┣ LICENSE
 ┣ README.md
